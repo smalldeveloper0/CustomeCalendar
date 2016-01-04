@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+    <TextView
+        android:focusable="false"
+        android:id="@+id/curtime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F35C50"
+        android:textColor="#fff"
+        android:gravity="center" />
+
+    <GridView
+        android:animateLayoutChanges="true"
+        android:numColumns="7"
+        android:id="@+id/order_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+    </GridView>
+
+</LinearLayout>
